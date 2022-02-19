@@ -2,6 +2,7 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
+const apiRoutes = require("./Develop/routes/routes");
 
 // Initialize express app
 const app = express();
@@ -10,12 +11,19 @@ const PORT = process.env.PORT || 3001;
 // Setup data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static(__dirname));
+//app.use(express.static(path.join(__dirname, "public")));
 
+app.get("/", function (req, res) {
+  res.sendFile(path.join(__dirname, "/Develop/public/index.html"));
+});
+
+app.get("/notes", function (req, res) {
+  res.sendFile(path.join(__dirname, "/Develop/public/notes.html"));
+});
 //Require routes file
-require("../miniature-eureka-main/Note_Taker/Develop/routes/routes")(app);
+app.use("/api", apiRoutes);
 
 // Setup listener
-app.listen(PORT, function () {
-  console.log("App listening on PORT: " + PORT);
+app.listen(PORT, () => {
+  console.log(`API server now on port ${PORT}!`);
 });
