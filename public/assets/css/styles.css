@@ -5,25 +5,6 @@ body {
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Just Another Hand", cursive;
-}
-
-h1.display-4 {
-  font-size: 60pt;
-  letter-spacing: 1.5pt;
-}
-
-h4.subtitle {
-  font-size: 35pt;
-  letter-spacing: 1pt;
-}
-
 .save-note {
   display: none;
 }
@@ -79,6 +60,11 @@ h4.subtitle {
   border-top-left-radius: 0;
 }
 
+.list-item-title {
+  display: inline-block;
+  width: 75%;
+}
+
 .list-container i {
   font-size: 1.1rem;
   cursor: pointer;
@@ -89,15 +75,4 @@ h4.subtitle {
   border-right: none;
   padding: 20px;
   cursor: pointer;
-  font-family: "Just Another Hand", cursive;
-  font-size: 24pt;
-  letter-spacing: 1pt;
-}
-
-.nav-bg {
-  background-color: #856c8b !important;
-}
-
-.container-bg {
-  background-color: #f4eeff;
 }
