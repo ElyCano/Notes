@@ -14,20 +14,20 @@ Live demo [_Click Here_](https://watch.screencastify.com/v/oN4Mi2PjYA01vqLyfVBF)
 
 ## Index.html Screenshot
 
-![Index.html-pic](https://github.com/ElyCano/Team_Profile_Generator/blob/main/images/generatedHTML.1.jpg)
+![Index.html-pic](https://github.com/ElyCano/Notes/blob/main/public/assets/img/index.html.jpg)
 
 ## Notes.html Screenshot
 
-![Notes.html-pic](https://github.com/ElyCano/Team_Profile_Generator/blob/main/images/generatedHTML.jpg)
+![Notes.html-pic](https://github.com/ElyCano/Notes/blob/main/public/assets/img/notes.html.jpg)
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies](#Technologies Used)
-- [Contributing](#contributing)
-- [Application](#Starting Application)
-- [Contact](#contact)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Technologies](#Technologies_Used)
+- [Contributing](#Contributing)
+- [Application](#Starting_Application)
+- [Contact](#Contact)
 
 ## Technologies Used
 
